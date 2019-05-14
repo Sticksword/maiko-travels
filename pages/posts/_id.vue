@@ -1,7 +1,6 @@
 <template>
   <section class="section is-medium">
     <div class="container has-text-centered">
-      <h1 class="title">Blog posts</h1>
       <!-- render blog posts via single file components -->
       <blog-post v-for="post in posts" :key="post.id" :post="post"></blog-post>
     </div>
@@ -10,7 +9,7 @@
 
 <script>
 import { createClient } from '~/plugins/contentful.js'
-import BlogPost from '../components/blog-post.vue'
+import BlogPost from '../../components/blog-post.vue'
 
 const client = createClient()
 
@@ -19,12 +18,12 @@ export default {
     BlogPost
   },
   // `env` is available in the context object
-  asyncData({ env }) {
+  asyncData({ env, params }) {
     return Promise.all([
-      // fetch all blog posts sorted by creation date
+      // fetch individual entry
       client.getEntries({
         content_type: env.CTF_BLOG_POST_TYPE_ID,
-        order: '-sys.createdAt'
+        'fields.slug': params.id
       })
     ])
       .then(([posts]) => {
