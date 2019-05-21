@@ -1,9 +1,7 @@
 <template>
-  <section class="section is-medium">
-    <div class="container has-text-centered">
-      <!-- render blog posts via single file components -->
-      <blog-post v-for="post in posts" :key="post.id" :post="post"></blog-post>
-    </div>
+  <section class="container">
+    <!-- render blog posts via single file components -->
+    <blog-post :key="post.id" :post="post"></blog-post>
   </section>
 </template>
 
@@ -26,11 +24,10 @@ export default {
         'fields.slug': params.id
       })
     ])
-      .then(([posts]) => {
-        // return data that should be available
-        // in the template
+      .then(([data]) => {
+        // debugger
         return {
-          posts: posts.items
+          post: data.items[0]
         }
       })
       .catch()

@@ -15,6 +15,7 @@
     "deploy": "DEPLOY_ENV=GH_PAGES nuxt generate && ./node_modules/gh-pages/bin/gh-pages.js -d dist"
   },
   "dependencies": {
+    "@contentful/rich-text-html-renderer": "^13.1.0",
     "@nuxtjs/axios": "^5.3.6",
     "@nuxtjs/bulma": "^1.2.1",
     "@nuxtjs/pwa": "^2.6.0",

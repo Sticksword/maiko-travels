@@ -2,13 +2,11 @@
   <section class="section is-medium">
     <div class="container has-text-centered">
       <h1 class="title">About Me</h1>
+      <p>My name is {{ person.fields.name }} and I currently work at Square.</p>
       <p>
-        Lorem ipsum dolor sit amet,
+        I hope to pursue computational biology and ML. Shit excites me to no
+        end.
       </p>
-      <div>
-        <!-- render data of the person -->
-        <h1>{{ person.fields.name }}</h1>
-      </div>
     </div>
   </section>
 </template>
