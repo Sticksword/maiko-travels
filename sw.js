@@ -2,44 +2,52 @@ importScripts('/maiko-travels/_nuxt/workbox.4c4f5ca6.js')
 
 workbox.precaching.precacheAndRoute([
   {
-    "url": "/maiko-travels/_nuxt/1e3f64e6458799677f92.js",
-    "revision": "e94eb0f4dd28844a87472fa656222057"
+    "url": "/maiko-travels/_nuxt/1da477e548850c1b3fca.js",
+    "revision": "32b665c8f1acce358cb9998a7d78f4f6"
   },
   {
-    "url": "/maiko-travels/_nuxt/2af6daa8ea11e507f0fe.js",
-    "revision": "1696a567c684f56d2b6474c902d83657"
+    "url": "/maiko-travels/_nuxt/270d6cad6d69bef2f387.js",
+    "revision": "f7c9c542dfcd468dff31676f8d3e3acf"
   },
   {
-    "url": "/maiko-travels/_nuxt/5a41fc573a06bc6f4255.js",
-    "revision": "96daf3e8b9b05b189fd5b542940c72ce"
+    "url": "/maiko-travels/_nuxt/66594d3ebeb601015ba3.js",
+    "revision": "0cf2d5814fe121c80ef23003f47ec56e"
   },
   {
-    "url": "/maiko-travels/_nuxt/6d407105d241fd903069.js",
-    "revision": "94520ee6fd3d75612e43cea22db25bcc"
+    "url": "/maiko-travels/_nuxt/6acdfdee377988ea47e9.js",
+    "revision": "99776209db32c06a733be5c9b0cf6ad8"
   },
   {
-    "url": "/maiko-travels/_nuxt/96fc2a1667eb0974859d.js",
-    "revision": "46fe94e9fbad6a29c6c111cf3b397191"
+    "url": "/maiko-travels/_nuxt/7da2b28c5eedba55c6c3.js",
+    "revision": "3b0a89fe223c96108a139dd1fde224df"
   },
   {
-    "url": "/maiko-travels/_nuxt/abed0e6d9a7ffc49ac74.js",
-    "revision": "febc80d696710f3dad5b148b3232371b"
+    "url": "/maiko-travels/_nuxt/9a6727ecbc1b5aa42a48.js",
+    "revision": "70cc8560b30203cceab39c1ef94aaf0b"
   },
   {
-    "url": "/maiko-travels/_nuxt/b5beac92e7e37f8e483f.js",
-    "revision": "9ff12969d3ef847a820da1444b78a066"
+    "url": "/maiko-travels/_nuxt/a108b6e3eacdea016c48.js",
+    "revision": "6fb530014942089a640658000111407a"
   },
   {
-    "url": "/maiko-travels/_nuxt/edb527c75c8bcc1f28b8.js",
-    "revision": "ca87f65f55fa0710b9436c7d2ce82f8e"
+    "url": "/maiko-travels/_nuxt/a52553bb9c05218769bd.js",
+    "revision": "962e9481767839259c0a91382558eb31"
   },
   {
-    "url": "/maiko-travels/_nuxt/f02f5683537e0b34b088.js",
-    "revision": "fed57b97d1297aa129edf5d921bc97a8"
+    "url": "/maiko-travels/_nuxt/b0884ab40d166350035a.js",
+    "revision": "c134cb24b411b42bc926b40310c26b9a"
   },
   {
-    "url": "/maiko-travels/_nuxt/fa349251102b7a6b0081.js",
-    "revision": "af383105f7af2ff1370c8e9cc76d5e35"
+    "url": "/maiko-travels/_nuxt/b6291a46c0d7a3f9497b.js",
+    "revision": "549e96434c8a0904efcb97cfbb7b2505"
+  },
+  {
+    "url": "/maiko-travels/_nuxt/bb566ea23726b58e7d01.js",
+    "revision": "2f40d4b71de8d9921fbf4cd1ba1dcee9"
+  },
+  {
+    "url": "/maiko-travels/_nuxt/cab385062d72bcbd4a7b.js",
+    "revision": "159a518a9fed53d78780a22e3b51dde2"
   }
 ], {
   "cacheId": "travel-blog",
