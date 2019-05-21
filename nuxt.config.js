@@ -54,8 +54,8 @@ export default {
   generate: {
     routes: [
       '/posts/automate-with-webhooks',
-      '/users/hello-world',
-      '/users/static-sites-are-great'
+      '/posts/hello-world',
+      '/posts/static-sites-are-great'
     ]
   },
 
